@@ -6,15 +6,11 @@ function checkPrimeNumber(num){
 
     for(i = 2; i< num; i++){
         if(num%i === 0){
-            var res = "Not a Prime Number";
-            break;
-        }
-        else{
-            var res = "Prime Number";
+            return "Not a Prime Number";
         }
     }
-    return res;
+    return "Prime Number";
     
 }
 
-console.log(checkPrimeNumber(17));
+console.log(checkPrimeNumber(79));
