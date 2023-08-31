@@ -1,3 +1,17 @@
+function findFactorial(num) {
+    let fact = 1;
+    if(num === 0) console.log(`The factorial of ${num} is 1`);
+    else if(num < 0) console.log(`The factorial is not possible for negative numbers`);
+    else {
+        for(var i = 1; i<= num; i++){
+            fact *= i;
+        }
+        return fact;
+    }
+}
+
+console.log(findFactorial(4));
+
 function findFactorial1(n){
     let fact = 1;
     if(n === 0 || n === 1) return fact;
