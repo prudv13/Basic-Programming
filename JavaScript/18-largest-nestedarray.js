@@ -37,3 +37,12 @@ function findLargestElements(arr){
 }
 
 console.log(findLargestElements([[1, 2, 3],[4, 5, 6],[7, [8, 9, 10], 11]]));
+
+// ==========================================================================================
+
+function useFlat(arr){
+    const flattedArray = arr.flat(Infinity);
+    return Math.max(...flattedArray);
+}
+
+console.log(useFlat([[1, 2, 3],[4, 5, 6],[7, [8, 9, 10], 11]]));
