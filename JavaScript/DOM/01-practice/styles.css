@@ -1,0 +1,12 @@
+/* .dark{
+    background-color: #222;
+    color: #fff;
+} */
+
+.current-topic{
+    text-decoration-line: underline;
+}
+
+body {
+    padding: 10px;
+}
